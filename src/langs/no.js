@@ -1,17 +1,17 @@
 //Add strings
-gdprCookieNoticeLocales.en = {
-  description: 'We use cookies to offer you a better browsing experience, personalise content and ads, to provide social media features and to analyse our traffic. Read about how we use cookies and how you can control them by clicking Cookie Settings. You consent to our cookies if you continue to use this website.',
-  settings: 'Cookie settings',
-  accept: 'Accept cookies',
-  statement: 'Our cookie statement',
-  save: 'Save settings',
-  always_on: 'Always on',
-  cookie_essential_title: 'Essential website cookies',
-  cookie_essential_desc: 'Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.',
-  cookie_performance_title: 'Performance cookies',
-  cookie_performance_desc: 'These cookies are used to enhance the performance and functionality of our websites but are non-essential to their use. For example it stores your preferred language or the region that you are in.',
-  cookie_analytics_title: 'Analytics cookies',
-  cookie_analytics_desc: 'We use analytics cookies to help us measure how users interact with website content, which helps us customize our websites and application for you in order to enhance your experience.',
-  cookie_marketing_title: 'Marketing cookies',
-  cookie_marketing_desc: 'These cookies are used to make advertising messages more relevant to you and your interests. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers.'
+gdprCookieNoticeLocales.no = {
+  description: 'Vi ønsker at du skal være trygg når du bruker dette nettstedet. Vi benytter cookies for å sikre at du får en best mulig brukeropplevelse og for å hente inn statistikk slik at vi kan analysere hvordan nettstedet benyttes. Vi bruker også cookies for å kunne tilpasse innholdet til deg, og for å kunne målrette annonser til deg, også på andre nettsteder. Trykk OK for å akseptere vår bruk av cookies, eller trykk «Innstillinger» for å lese mer om dette.',
+  settings: 'Innstillinger',
+  accept: 'Godta alle',
+  statement: 'Om cookies',
+  save: 'Lagre innstillinger',
+  always_on: 'Alltid på',
+  cookie_essential_title: 'Nødvendige',
+  cookie_essential_desc: 'Nødvendige informasjonskapsler hjelper med å gjøre en hjemmeside brukbar ved å aktivere grunnleggende funksjoner, slik som side-navigasjon og tilgang til sikre områder av hjemmesiden. Hjemmesiden kan ikke fungere optimalt uten disse informasjonskapslene.',
+  cookie_performance_title: 'Funksjonelle',
+  cookie_performance_desc: 'Funksjonelle informasjonskapsler gjør det mulig å lagre opplysninger som endrer måten hjemmesiden ser ut eller oppfører seg på. F.eks. ditt foretrukne språk eller den regionen du befinner deg i.',
+  cookie_analytics_title: 'Statistiske',
+  cookie_analytics_desc: 'Statistiske informasjonskapsler hjelper hjemmesidens eier med å forstå hvordan besøkende samhandler med hjemmesiden ved å samle inn og rapportere opplysninger.',
+  cookie_marketing_title: 'Markedsføring',
+  cookie_marketing_desc: 'Markedsførings-informasjonskapsler brukes til å spore besøkende på tvers av hjemmesider. Hensikten er å vise annonser som er relevante og engasjerende for den enkelte brukeren, og dermed mer verdifulle for utgivere og tredjeparts-annonsører.'
 }
