@@ -12,14 +12,14 @@ function gdprCookieNotice(config) {
   var categories = ['performance', 'analytics', 'marketing'];
 
   // Default config options
-  if(!config.locale) config.locale = 'en';
+  if(!config.locale) config.locale = 'no';
   if(!config.timeout) config.timeout = 500;
   if(!config.domain) config.domain = null;
   if(!config.expiration) config.expiration = 30;
 
   // Use 'en' locale if current locale doesn't exist
   if (typeof gdprCookieNoticeLocales[config.locale] === 'undefined') {
-    config.locale = 'en';
+    config.locale = 'no';
   }
 
   // Get the users current cookie selection
