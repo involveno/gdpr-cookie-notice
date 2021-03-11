@@ -13,5 +13,6 @@ gdprCookieNoticeLocales.no = {
   cookie_analytics_title: 'Statistiske',
   cookie_analytics_desc: 'Statistiske informasjonskapsler hjelper hjemmesidens eier med å forstå hvordan besøkende samhandler med hjemmesiden ved å samle inn og rapportere opplysninger.',
   cookie_marketing_title: 'Markedsføring',
-  cookie_marketing_desc: 'Markedsførings-informasjonskapsler brukes til å spore besøkende på tvers av hjemmesider. Hensikten er å vise annonser som er relevante og engasjerende for den enkelte brukeren, og dermed mer verdifulle for utgivere og tredjeparts-annonsører.'
+  cookie_marketing_desc: 'Markedsførings-informasjonskapsler brukes til å spore besøkende på tvers av hjemmesider. Hensikten er å vise annonser som er relevante og engasjerende for den enkelte brukeren, og dermed mer verdifulle for utgivere og tredjeparts-annonsører.',
+  back: 'Tilbake'
 }

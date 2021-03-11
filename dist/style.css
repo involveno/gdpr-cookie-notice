@@ -174,6 +174,14 @@
     opacity: 1
 }
 
+.gdpr-cookie-notice-modal-statement-text {
+    display: block;
+    margin: 0;
+    padding: 16px;
+    max-height: calc(100vh - 240px);
+    overflow: auto;
+}
+
 .gdpr-cookie-notice-modal-cookies {
     display: block;
     margin: 0;
@@ -317,7 +325,27 @@
     right: -16px;
     top: 50%;
     margin-top: -5px;
-    background: url('data:image/svg+xml;utf8,<svg height="12" viewBox="0 0 8 12" width="8" xmlns="http://www.w3.org/2000/svg"><path d="m1.41 0-1.41 1.41 4.58 4.59-4.58 4.59 1.41 1.41 6-6z" fill="#1ad56c"/></svg>') no-repeat left center;
+    background: url('data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEyIiB2aWV3Qm94PSIwIDAgOCAxMiIgd2lkdGg9IjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTEuNDEgMC0xLjQxIDEuNDEgNC41OCA0LjU5LTQuNTggNC41OSAxLjQxIDEuNDEgNi02eiIgZmlsbD0iIzFhZDU2YyIvPjwvc3ZnPg==') no-repeat left center;
+    height: 12px;
+    width: 8px;
+    content: '';
+    display: block
+}
+
+.gdpr-cookie-notice-modal-footer-item-statement-back {
+    margin-left: 16px;
+}
+
+.gdpr-cookie-notice-modal-footer-item-statement-back:after {
+    content: none;
+}
+
+.gdpr-cookie-notice-modal-footer-item-statement-back:before {
+    position: absolute;
+    left: -16px;
+    top: 50%;
+    margin-top: -5px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDggMTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYgMEw3LjQxIDEuNDFMMi44MyA2TDcuNDEgMTAuNTlMNiAxMkwzLjgxNDdlLTA2IDZMNiAwWiIgZmlsbD0iIzFBRDU2QyIvPjwvc3ZnPg==') no-repeat left center;
     height: 12px;
     width: 8px;
     content: '';

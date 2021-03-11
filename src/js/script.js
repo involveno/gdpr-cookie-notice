@@ -229,8 +229,11 @@ function gdprCookieNotice(config) {
   function setModalEventListeners() {
     var closeButton = document.querySelectorAll('.'+pluginPrefix+'-modal-close')[0];
     var statementButton = document.querySelectorAll('.'+pluginPrefix+'-modal-footer-item-statement')[0];
+    var statementBackButton = document.querySelectorAll('.'+pluginPrefix+'-modal-footer-item-statement-back')[0];
     var categoryTitles = document.querySelectorAll('.'+pluginPrefix+'-modal-cookie-title');
     var saveButton = document.querySelectorAll('.'+pluginPrefix+'-modal-footer-item-save')[0];
+    var modalCookies = document.querySelectorAll('.'+pluginPrefix+'-modal-cookies')[0];
+    var modalStatementText = document.querySelectorAll('.'+pluginPrefix+'-modal-statement-text')[0];
 
     closeButton.addEventListener('click', function() {
       hideModal();
@@ -239,7 +242,20 @@ function gdprCookieNotice(config) {
 
     statementButton.addEventListener('click', function(e) {
       e.preventDefault();
-      window.location.href = config.statement;
+      // hide cookies category list and show statement text
+      statementButton.style.display = 'none';
+      modalCookies.style.display = 'none';
+      statementBackButton.style.display = 'block';
+      modalStatementText.style.display = 'block';
+    });
+
+    statementBackButton.addEventListener('click', function(e) {
+      e.preventDefault();
+      // show cookies category list and hide statement text
+      statementButton.style.display = 'block';
+      modalCookies.style.display = 'block';
+      statementBackButton.style.display = 'none';
+      modalStatementText.style.display = 'none';
     });
 
     for (var i = 0; i < categoryTitles.length; i++) {
