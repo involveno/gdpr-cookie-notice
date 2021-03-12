@@ -12,7 +12,8 @@ $modal_icon: rgb(189,189,189);
 $modal_primary: rgb(26,213,108);
 
 $icon_checkmark: 'data:image/svg+xml;utf8,<svg height="11" viewBox="0 0 14 11" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m5 10.42-5-5 1.41-1.41 3.59 3.58 7.59-7.59 1.41 1.42z" fill="rgb(255,255,255)" fill-rule="evenodd"/></svg>';
-$icon_caret: 'data:image/svg+xml;utf8,<svg height="12" viewBox="0 0 8 12" width="8" xmlns="http://www.w3.org/2000/svg"><path d="m1.41 0-1.41 1.41 4.58 4.59-4.58 4.59 1.41 1.41 6-6z" fill="'+$bar_primary+'"/></svg>';
+$icon_caret: 'data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEyIiB2aWV3Qm94PSIwIDAgOCAxMiIgd2lkdGg9IjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTEuNDEgMC0xLjQxIDEuNDEgNC41OCA0LjU5LTQuNTggNC41OSAxLjQxIDEuNDEgNi02eiIgZmlsbD0iIzFhZDU2YyIvPjwvc3ZnPg==';
+$icon_caret_back: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDggMTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYgMEw3LjQxIDEuNDFMMi44MyA2TDcuNDEgMTAuNTlMNiAxMkwzLjgxNDdlLTA2IDZMNiAwWiIgZmlsbD0iIzFBRDU2QyIvPjwvc3ZnPg==';
 
 .gdpr-cookie-notice {
   position: fixed;
@@ -158,6 +159,21 @@ $icon_caret: 'data:image/svg+xml;utf8,<svg height="12" viewBox="0 0 8 12" width=
       }
     }
 
+    &-statement-text {
+      display: block;
+      margin: 0;
+      padding: 16px;
+      max-height: calc(100vh - 240px);
+      overflow: auto;
+      a {
+        color: $modal_primary;
+      }
+      h2 {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+    }
+
     &-cookies {
       display: block;
       margin: 0;
@@ -288,6 +304,24 @@ $icon_caret: 'data:image/svg+xml;utf8,<svg height="12" viewBox="0 0 8 12" width=
           width: 8px;
           content: '';
           display: block;
+        }
+
+        &-statement-back {
+          margin-left: 16px;
+          &:after {
+            content: none;
+          }
+          &:before {
+            position: absolute;
+            left: -16px;
+            top: 50%;
+            margin-top: -5px;
+            background: url($icon_caret_back) no-repeat left center;
+            height: 12px;
+            width: 8px;
+            content: '';
+            display: block
+          }
         }
 
         &-btn {
