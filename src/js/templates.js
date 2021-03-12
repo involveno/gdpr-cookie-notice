@@ -28,23 +28,45 @@ window["gdpr-cookie-notice-templates"]["modal.html"] = "<div class=\"gdpr-cookie
     "    </div>\n" +
     "    <ul class=\"gdpr-cookie-notice-modal-cookies\"></ul>\n" +
     "    <div class=\"gdpr-cookie-notice-modal-statement-text\" style=\"display: none;\">\n" +
-    "      Statement text\n" +
+    "      <h2>Hva er en cookie?</h2>\n" +
     "\n" +
-    "      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sodales ex, ac blandit eros. Nulla scelerisque odio nec mauris porttitor, eget venenatis est interdum. Morbi venenatis lacus nec massa elementum, at tincidunt nisl elementum. Etiam faucibus iaculis dui, ac vehicula ante lobortis imperdiet. Aliquam scelerisque enim odio, vel finibus ex luctus non. Duis dapibus ex et euismod elementum. Vestibulum malesuada nulla et sapien ornare, eget pretium eros posuere. Quisque vulputate, lectus id dictum cursus, mi eros condimentum eros, eu aliquet nibh mauris a nulla. In diam risus, auctor sit amet urna ut, auctor dictum lorem. Sed sagittis purus ipsum, id imperdiet purus pellentesque sit amet. Quisque sed metus varius, placerat turpis eu, ultrices turpis. Suspendisse quis lectus quam. Suspendisse ac nisl ac massa pellentesque vehicula. Duis elementum nibh nunc, quis dapibus ex commodo nec.\n" +
+    "      <p>En cookie er en liten datafil som lagres på datamaskinen, nettbrettet eller mobiltelefonen din. En cookie er ikke et program som kan inneholde skadelige programmer eller virus.</p>\n" +
     "\n" +
-    "      Phasellus a imperdiet odio. Donec nisl mauris, vehicula sed arcu a, sagittis scelerisque mauris. Fusce volutpat quam ut sem pharetra, nec suscipit turpis semper. Etiam et laoreet ipsum. Vivamus placerat, justo vel efficitur pellentesque, libero lectus dictum enim, ut ultricies ipsum dui nec mi. Sed varius porttitor laoreet. Aenean ut elementum turpis. In sed augue sed erat faucibus consectetur. Proin ac velit quam. Mauris mauris risus, lobortis in dui et, consectetur bibendum lacus. Aenean ornare risus nec erat pretium pellentesque ut eget sapien.\n" +
+    "      <h2>Hvordan nettsiden bruker cookies</h2>\n" +
     "\n" +
-    "      Curabitur non placerat augue. Pellentesque varius nunc id lacinia tristique. Donec aliquam suscipit magna pretium egestas. Nullam vel turpis tortor. Vivamus blandit, leo sit amet tincidunt pellentesque, purus justo ornare ligula, convallis pulvinar ante neque vitae dui. Phasellus tincidunt ex ac urna semper interdum. Nam quis nulla dignissim, suscipit leo fermentum, posuere lorem.\n" +
+    "      <p>Cookies er nødvendig for å få nettsiden til å fungere. Cookies hjelper oss å få en oversikt over besøkene dine på nettsiden, slik at vi fortløpende kan optimere og rette innholdet på nettsiden mot dine behov og interesser. Cookies kan f.eks, huske hva du har lagt i handlekurven ved tidligere besøk på siden, om du er innlogget og hvilket språk og valuta du vil at skal vises på siden. Vi bruker også cookies for å målrette annonsene våre mot deg på andre nettsider. I hovedsak brukes cookies som en del av vår service for at innholdet som vises skal være så relevant som mulig for deg.</p>\n" +
     "\n" +
-    "      Nulla facilisi. Quisque massa mauris, accumsan venenatis dui vitae, eleifend fermentum nunc. Suspendisse potenti. Aenean dictum nec odio id feugiat. Curabitur a turpis sit amet tortor sagittis mollis at ac dui. Nam pharetra nec est ac ultricies. Nam id odio in ex sollicitudin euismod posuere ut dui.\n" +
+    "      <h2>Hvor lenge oppbevares cookies?</h2>\n" +
     "\n" +
-    "      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed ullamcorper enim et gravida consectetur. Mauris eget varius nunc, id placerat ante. Proin non pellentesque tortor. Nam dapibus orci at nunc ornare, at vestibulum ex lacinia. Nam dictum facilisis metus et vestibulum. Vestibulum ut velit sed ipsum auctor finibus. Pellentesque mi dui, convallis et lobortis feugiat, lacinia vitae nisl. Aenean quis libero sem. Donec libero dolor, cursus nec lectus at, suscipit sodales quam. Morbi at velit at sem sagittis consequat. Cras quis egestas nunc.\n" +
+    "      <p>Hvor lenge cookies oppbevares på enheten din kan variere. Oppbevaringstiden regnes fra den siste gangen du var inne på nettsiden. Cookien slettes automatisk etter tidens utløp. Nedenfor kan du kan se en komplett liste over cookies.</p>\n" +
     "\n" +
-    "      Phasellus pellentesque ipsum lacus, in gravida lacus rutrum pulvinar. Quisque quam erat, venenatis et lacus in, iaculis viverra quam. Praesent et eleifend odio, eget ornare libero. Nunc nulla arcu, tempor vel varius vitae, condimentum eu risus. Quisque molestie congue risus, id ornare nisi consectetur at. Phasellus at risus venenatis, placerat ipsum in, egestas neque. Phasellus ut mattis sem, sed pulvinar elit. In nulla risus, ullamcorper sit amet consectetur a, volutpat eu metus.\n" +
+    "      <h2>Slik avviser eller sletter du cookies</h2>\n" +
     "\n" +
-    "      Duis lacinia tempor ex eu ultricies. Integer lobortis dictum sem a tincidunt. Fusce a justo fermentum, elementum ipsum in, vulputate est. Suspendisse rhoncus aliquam elit, vel consectetur metus imperdiet non. Aliquam laoreet nulla finibus neque tempus, ac ullamcorper orci viverra. Fusce tincidunt nisi sed tincidunt accumsan. Etiam tincidunt viverra quam. Ut ac varius nunc. Duis lacinia elit ut nibh volutpat, sed pharetra ipsum sollicitudin. Quisque vitae ipsum sem. Cras eleifend lacus quis erat maximus lacinia. Nulla non sodales mi, ac laoreet arcu. Nullam sollicitudin nunc et augue placerat mollis. Ut egestas pharetra quam tincidunt imperdiet.\n" +
+    "      <p>Du kan til enhver tid avvis cookies på datamaskinen, nettbrettet eller telefonen din ved å endre innstillingene i nettleseren din. Hvor du finner innstillingene, avhenger av hvilken nettleser du bruker. Hvis du endrer innstillingene må du være oppmerksom på at enkelte funksjoner og tjenester ikke kan brukes, da de forutsetter at nettsiden kan huske de valgene du gjør.<br>\n" +
     "\n" +
-    "      Curabitur aliquam quam diam, et pretium orci molestie sed. Integer blandit tellus ac lorem sollicitudin, quis laoreet nibh tincidunt. Donec eleifend odio quis elit imperdiet, eu eleifend dolor rhoncus. Nulla facilisi. Sed viverra mauris turpis. Sed dapibus mollis tellus, id viverra lacus porta non. Etiam dignissim quam risus, a feugiat urna sollicitudin at. Curabitur nec magna ac purus tincidunt commodo. Vestibulum sed nulla non justo finibus vulputate. In congue orci luctus, blandit nisl sed, eleifend quam. Fusce pharetra mi nunc, a sagittis ligula convallis sed. Quisque eget lobortis est, at dignissim nisi. Suspendisse eu varius lorem. Sed tincidunt erat nibh, ut pulvinar elit consequat non. Nullam blandit, arcu quis tempor pharetra, elit purus tincidunt turpis, vitae sagittis leo quam sodales velit.\n" +
+    "        Du kan velge bort cookies fra Google Analytics <a href=\"https://tools.google.com/dlpage/gaoptout\" target=\"_blank\">her</a>.<br>\n" +
+    "\n" +
+    "        Det er mulig å velge bort enkelte annonsenettverk som deler opplysninger på tvers av forskjellige nettverk <a href=\"http://www.youronlinechoices.com/uk/your-ad-choices\" target=\"_blank\">her</a>.</p>\n" +
+    "\n" +
+    "      <h2>Sletting av cookies</h2>\n" +
+    "\n" +
+    "      <p>Cookies som du har akseptert tidligere, kan senere slettes. Benytter du en PC med en nyere nettleser, kan du slette cookies ved å bruke hurtigtastene: CTRL + SHIFT + Delete.</p>\n" +
+    "\n" +
+    "      <p>Hvis hurtigtastene ikke virker, eller hvis du bruker MAC, finn ut hvilken nettleser du bruker og klikk på relevant link:</p>\n" +
+    "\n" +
+    "      <ul>\n" +
+    "        <li><a href=\"https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies#ie=ie-11\" target=\"_blank\">Internet Explorer</a></li>\n" +
+    "        <li><a href=\"https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored\" target=\"_blank\">Mozilla Firefox</a></li>\n" +
+    "        <li><a href=\"https://support.google.com/chrome/answer/95647?hl=en\" target=\"_blank\">Google Chrome</a></li>\n" +
+    "        <li><a href=\"https://www.opera.com/help/tutorials/security/cookies\" target=\"_blank\">Opera</a></li>\n" +
+    "        <li><a href=\"https://support.apple.com/en-us/HT201265\" target=\"_blank\">Safari</a></li>\n" +
+    "        <li><a href=\"https://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html\" target=\"_blank\">Flash cookies</a></li>\n" +
+    "        <li><a href=\"https://support.apple.com/en-us/HT1677\" target=\"_blank\">Apple</a></li>\n" +
+    "        <li><a href=\"https://timeread.hubpages.com/hub/How-to-delete-internet-cookies-on-your-Droid-or-any-Android-device\" target=\"_blank\">Android</a></li>\n" +
+    "        <li><a href=\"https://support.microsoft.com/en-us/help/11696/windows-phone-7\" target=\"_blank\">Windows 7</a></li>\n" +
+    "      </ul>\n" +
+    "\n" +
+    "      <p>Husk: Hvis du bruker flere nettlesere, må du slette cookies i alle.</p>\n" +
     "    </div>\n" +
     "    <div class=\"gdpr-cookie-notice-modal-footer\">\n" +
     "      <a href=\"#\" class=\"gdpr-cookie-notice-modal-footer-item gdpr-cookie-notice-modal-footer-item-statement\">{statement}</a>\n" +

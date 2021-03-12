@@ -182,6 +182,11 @@
     overflow: auto;
 }
 
+.gdpr-cookie-notice-modal-statement-text h2 {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
 .gdpr-cookie-notice-modal-cookies {
     display: block;
     margin: 0;
