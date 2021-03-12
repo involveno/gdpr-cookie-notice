@@ -27,10 +27,21 @@ $icon_caret_back: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMiI
   transition: all ease 1s;
   transform: translateY(100%);
   z-index: 1000;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
   @media (max-width: 768px) {
     flex-direction: column;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, a, blockquote, address, big, cite, code, em, font, img, small, strike, sub, sup, li, ol,
+  ul, fieldset, form, label, legend, button, table, caption, div, tr, th, td {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    letter-spacing: normal;
+  }
+
+  p {
+    line-height: normal;
+    font-size: 16px;
   }
 
   .gdpr-cookie-notice-loaded & {
@@ -62,7 +73,7 @@ $icon_caret_back: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMiI
     height: auto;
     padding: 0;
 
-    &-item {
+    .gdpr-cookie-notice-nav-item {
       text-decoration: none;
       display: block;
       height: 40px;
@@ -98,6 +109,16 @@ $icon_caret_back: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMiI
     padding: 20px 10px;
     display: none;
 
+    h1, h2, h3, h4, h5, h6, p, a, blockquote, address, big, cite, code, em, font, img, small, strike, sub, sup, li, ol,
+    ul, fieldset, form, label, legend, button, table, caption, div, tr, th, td {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      letter-spacing: normal;
+    }
+
+    p {
+      line-height: normal;
+    }
+
     .gdpr-cookie-notice-show-modal & {
       display: flex;
     }
@@ -107,6 +128,37 @@ $icon_caret_back: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMiI
       border-radius: 6px;
       background: $modal_bg;
       margin: auto;
+
+      .gdpr-cookie-notice-modal-statement-text {
+        display: block;
+        margin: 0;
+        padding: 16px;
+        max-height: calc(100vh - 240px);
+        overflow: auto;
+        font-size: 13px;
+        p, ul, li, a {
+          font-size: 13px;
+        }
+        ul {
+          margin: 0 0 10px 20px;
+        }
+        p {
+          color: $modal_text;
+        }
+        a {
+          color: $modal_primary;
+          text-decoration: none;
+        }
+        h2 {
+          color: $modal_title;
+          font-size: 15px;
+          line-height: 1.5;
+          padding: 0;
+          text-align: left;
+          font-weight: 400;
+          margin-bottom: 8px;
+        }
+      }
     }
 
     &-header {
@@ -156,21 +208,6 @@ $icon_caret_back: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMiI
       &:hover {
         transform: rotate(45deg);
         opacity: 1;
-      }
-    }
-
-    &-statement-text {
-      display: block;
-      margin: 0;
-      padding: 16px;
-      max-height: calc(100vh - 240px);
-      overflow: auto;
-      a {
-        color: $modal_primary;
-      }
-      h2 {
-        font-size: 20px;
-        line-height: 1.5;
       }
     }
 
@@ -242,7 +279,7 @@ $icon_caret_back: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMiI
           height: 24px;
           border-radius: 50%;
           box-shadow: inset 0px 0px 0px 1px $modal_icon;
-          margin: 0 0 0 auto;
+          margin: 0 0 0 auto !important;
           position: relative;
           transition: all ease 0.3s;
           cursor: pointer;
@@ -283,7 +320,7 @@ $icon_caret_back: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxMiI
       border-radius: 0 0 6px 6px;
       flex-wrap: wrap;
 
-      &-item {
+      .gdpr-cookie-notice-modal-footer-item {
         height: 40px;
         line-height: 40px;
         font-weight: 600;
