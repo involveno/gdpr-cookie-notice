@@ -67,6 +67,8 @@ window["gdpr-cookie-notice-templates"]["modal.html"] = "<div class=\"gdpr-cookie
     "      </ul>\n" +
     "\n" +
     "      <p>Husk: Hvis du bruker flere nettlesere, må du slette cookies i alle.</p>\n" +
+    "\n" +
+    "      <p>Ditt samtykke gjelder følgende domener: <a href=\"#\" class=\"gdpr-cookie-notice-domain\"></a></p>\n" +
     "    </div>\n" +
     "    <div class=\"gdpr-cookie-notice-modal-footer\">\n" +
     "      <a href=\"#\" class=\"gdpr-cookie-notice-modal-footer-item gdpr-cookie-notice-modal-footer-item-statement\">{statement}</a>\n" +

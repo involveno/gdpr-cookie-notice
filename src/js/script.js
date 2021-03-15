@@ -234,6 +234,7 @@ function gdprCookieNotice(config) {
     var saveButton = document.querySelectorAll('.'+pluginPrefix+'-modal-footer-item-save')[0];
     var modalCookies = document.querySelectorAll('.'+pluginPrefix+'-modal-cookies')[0];
     var modalStatementText = document.querySelectorAll('.'+pluginPrefix+'-modal-statement-text')[0];
+    var domainLink = document.querySelectorAll('.'+pluginPrefix+'-domain')[0];
 
     closeButton.addEventListener('click', function() {
       hideModal();
@@ -247,6 +248,8 @@ function gdprCookieNotice(config) {
       modalCookies.style.display = 'none';
       statementBackButton.style.display = 'block';
       modalStatementText.style.display = 'block';
+      domainLink.setAttribute('href', window.location.origin);
+      domainLink.innerHTML = window.location.hostname;
     });
 
     statementBackButton.addEventListener('click', function(e) {
